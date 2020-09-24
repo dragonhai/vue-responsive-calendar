@@ -513,7 +513,7 @@ export default {
 			var times = [];
 
 			for (var i = this.hourStart; i < (this.hourEnd); i++) {
-				times.push(i + 'u');
+				times.push(i + ':00');
 				times.push(i + ':30');
 			}
 
